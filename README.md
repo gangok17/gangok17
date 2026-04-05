@@ -223,7 +223,7 @@ fun_fact: "I love building AI systems that create practical impact 🌍"
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/ganesh-gokule-b921a1289/" target="_blank">
+<a href="https://www.linkedin.com/in/ganeshgokule/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;
