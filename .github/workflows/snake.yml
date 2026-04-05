@@ -8,10 +8,16 @@ on:
     - cron: "0 0 * * *"   # Runs daily at midnight UTC
   workflow_dispatch:        # Allows manual trigger
 
+permissions:
+  contents: write           # Required to push to output branch
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
